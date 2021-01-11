@@ -7,7 +7,118 @@
     <title>Tailwind Boilerplate</title>
   </head>
 
-  <body class="bg-red-500"></body>
+  <body
+    class="w-screen h-screen flex justify-center items-center overflow-hidden bg-bg font-avenir px-4 md:px-0"
+  >
+    <div
+      class="bg-white p-5 rounded-3xl relative flex justify-center items-center flex-col w-modalwidth"
+    >
+      <button class="p-2 m-5 absolute top-0 right-0 bg-buttongrey rounded-full">
+        <svg
+          width="10"
+          height="10"
+          viewBox="0 0 10 10"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.89854 1.10134C8.70833 0.911125 8.38496 0.911125 8.17572 1.10134L4.99912 4.27795L1.82251 1.10134C1.6323 0.911125 1.30893 0.911125 1.09969 1.10134C0.909477 1.29156 0.909477 1.61492 1.09969 1.82416L4.2763 5.00077L1.09969 8.17737C0.909477 8.36759 0.909477 8.69095 1.09969 8.90019C1.1948 8.9953 1.32795 9.05236 1.4611 9.05236C1.59425 9.05236 1.72741 8.9953 1.82251 8.90019L4.99912 5.72359L8.17572 8.90019C8.27083 8.9953 8.40398 9.05236 8.53713 9.05236C8.67029 9.05236 8.80344 8.9953 8.89854 8.90019C9.08876 8.70998 9.08876 8.38661 8.89854 8.17737L5.72194 5.00077L8.89854 1.82416C9.08876 1.63395 9.08876 1.31058 8.89854 1.10134Z"
+            fill="#9BA2CE"
+          />
+        </svg>
+      </button>
+      <div class="absolute w-full flex justify-center" style="top: -7.5rem">
+        <svg
+          width="139"
+          height="170"
+          viewBox="0 0 139 170"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g filter="url(#filter0_d)">
+            <path
+              d="M25.6582 103.578C25.6582 103.612 25.6591 103.647 25.6609 103.681C26.734 124.37 44.9093 140.203 65.9699 140.203H68.3718C89.546 140.203 107.869 124.378 108.807 103.543C108.808 103.513 108.809 103.483 108.809 103.453V101.612C108.809 90.3676 105.001 77.234 96.488 63.836C96.011 63.0853 95.0955 62.7398 94.2414 62.9882C93.3874 63.2366 92.8 64.0192 92.8 64.9086C92.8 68.8761 91.2846 71.621 89.7591 73.402C89.7538 73.1221 89.7456 72.8313 89.7342 72.5302C89.6067 69.1668 89.0722 64.495 87.4469 59.2198C84.1834 48.6275 76.5449 35.6952 59.227 26.0885C58.5992 25.7402 57.8329 25.7552 57.2192 26.1276C56.6054 26.5001 56.2384 27.173 56.2575 27.8906C56.7432 46.1318 49.4641 56.0944 41.7749 65.6991C41.3763 66.197 40.9758 66.6946 40.5749 67.1929C33.2077 76.3476 25.6582 85.729 25.6582 101.736V103.578Z"
+              fill="#001BFE"
+              stroke="white"
+              stroke-width="4"
+              stroke-miterlimit="10"
+              stroke-linejoin="round"
+            />
+          </g>
+          <defs>
+            <filter
+              id="filter0_d"
+              x="-1"
+              y="0"
+              width="140.476"
+              height="170"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="2" dy="2" />
+              <feGaussianBlur stdDeviation="12.5" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0.105882 0 0 0 0 0.996078 0 0 0 0.25 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="BackgroundImageFix"
+                result="effect1_dropShadow"
+              />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="effect1_dropShadow"
+                result="shape"
+              />
+            </filter>
+          </defs>
+        </svg>
+      </div>
+      <div class="flex flex-col items-center justify-center mt-8">
+        <h1 class="text-4xl text-blue mb-2 font-black">Save Product</h1>
+        <p class="text-lg text-general mb-7 font-medium text-center">
+          Create a Trendy account to save this product and to view the full list
+          of best-sellers and their suppliers on AliExpress.
+        </p>
+        <button
+          class="text-white text-xl px-15 py-4 bg-teal mb-10 rounded-full font-black"
+        >
+          Learn More
+        </button>
+      </div>
+      <div
+        class="flex items-center justify-center text-footer text-sm xl:text-base"
+      >
+        <span class="mr-2">
+          <svg
+            width="17"
+            height="19"
+            viewBox="0 0 17 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12.4869 2.76687L13.1669 3.42791C13.1669 3.42791 14.6524 3.5348 14.7212 3.54271C14.8062 3.55063 14.879 3.61397 14.8912 3.69709C14.9033 3.79209 17 17.7294 17 17.7294L11.8555 18.8219L12.4869 2.76687ZM11.6976 2.24041C11.6652 2.24436 11.6329 2.2523 11.6005 2.26022L11.0217 2.43438C10.6776 1.46063 10.0705 0.562077 8.99786 0.562077C8.96952 0.562077 8.93714 0.56208 8.90881 0.566039C8.60524 0.170205 8.22881 0 7.90095 0C5.40762 0 4.21762 3.06374 3.84119 4.61937C2.87381 4.91228 2.18571 5.12209 2.09666 5.1498C1.55428 5.31605 1.5381 5.33187 1.46929 5.83458C1.41667 6.21458 0 16.9694 0 16.9694L11.0257 19L11.0379 18.996L11.6976 2.24041ZM8.82786 2.99646V3.10334L6.90119 3.68917C7.27357 2.28396 7.96572 1.60313 8.57691 1.34584C8.72667 1.72584 8.82786 2.26813 8.82786 2.99646ZM7.83215 0.657073C7.94143 0.657073 8.05071 0.692705 8.15191 0.763955C7.35048 1.13208 6.49643 2.06228 6.13619 3.9227L4.61428 4.38584C5.03524 2.96876 6.03905 0.657073 7.83215 0.657073ZM8.26119 8.94189C8.26119 8.94189 7.61762 8.60541 6.82429 8.60541C5.66262 8.60541 5.60596 9.32188 5.60596 9.5C5.60596 10.4856 8.21262 10.8617 8.21262 13.1654C8.21262 14.9783 7.04286 16.146 5.46429 16.146C3.57 16.146 2.60262 14.9902 2.60262 14.9902L3.10857 13.3436C3.10857 13.3436 4.10429 14.1827 4.94215 14.1827C5.48857 14.1827 5.71524 13.7592 5.71524 13.4504C5.71524 12.1679 3.57405 12.1086 3.57405 10.0027C3.57405 8.22938 4.86929 6.51146 7.48405 6.51146C8.49191 6.51146 8.98977 6.79645 8.98977 6.79645L8.26119 8.94189ZM9.47952 2.90543V2.70751C9.47952 2.10189 9.39452 1.61499 9.2569 1.22707C9.80738 1.29437 10.1757 1.91187 10.4105 2.62041L9.47952 2.90543Z"
+              fill="#B1BBD0"
+            />
+          </svg>
+        </span>
+        <span class="font-extrabold"
+          >Optimized for dropshipping with Shopify & Oberlo</span
+        >
+      </div>
+    </div>
+  </body>
 
   <script src="./assets/js/main.js"></script>
 </html>
